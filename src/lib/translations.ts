@@ -474,6 +474,6 @@ export const translations = {
         '© 2026 Terravolteco | Terravolt Eco Co., Ltd. — All rights reserved · 25 Alma Link Building, 17th Floor, Soi Chidlom, Ploenchit Road, Lumpini, Pathumwan, Bangkok 10330',
     },
   },
-} as const
+}
 
 export type Translations = (typeof translations)['th']
