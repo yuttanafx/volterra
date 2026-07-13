@@ -1,13 +1,19 @@
 import VideoBackground from '@/components/VideoBackground'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
+import QuickLinks from '@/components/QuickLinks'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen w-full overflow-hidden bg-ink">
+    <main className="relative min-h-screen w-full overflow-x-hidden bg-ink">
       <VideoBackground />
-      <Navbar />
-      <Hero />
+      <div className="relative z-10">
+        <Navbar />
+        <Hero />
+        <QuickLinks />
+        <Footer />
+      </div>
     </main>
   )
 }

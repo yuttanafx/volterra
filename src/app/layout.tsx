@@ -25,9 +25,9 @@ const plexMono = IBM_Plex_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Voltera — พลังงานสะอาด เพื่ออนาคตที่ดีกว่า',
+  title: 'Terravolteco — พลังงานที่เป็นมิตรกับสิ่งแวดล้อม เพื่ออนาคตที่ดีกว่า',
   description:
-    'นวัตกรรมพลังงานสะอาดแบบกระจายศูนย์ (Decentralized Clean Energy) — โซลาร์ ไมโครกริด และระบบกักเก็บพลังงานอัจฉริยะ',
+    'เทอร์ร่าโวลท์อิโค่ ผู้นำด้านเทคโนโลยีพลังงานสะอาดและเป็นมิตรกับสิ่งแวดล้อม — โซลาร์ ไมโครกริดอัจฉริยะ และระบบกักเก็บพลังงานขั้นสูง',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
