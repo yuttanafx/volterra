@@ -20,7 +20,7 @@ module.exports = {
         'fade-rise': 'fadeRise 0.8s ease-out both',
         'fade-rise-delay': 'fadeRise 0.8s ease-out 0.2s both',
         'fade-rise-delay-2': 'fadeRise 0.8s ease-out 0.4s both',
-        pulse-line: 'pulseLine 2.4s ease-in-out infinite',
+        'pulse-line': 'pulseLine 2.4s ease-in-out infinite',
       },
       keyframes: {
         fadeRise: {
