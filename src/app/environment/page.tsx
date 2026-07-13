@@ -29,7 +29,7 @@ export default function EnvironmentPage() {
       <section className="relative z-10 mx-auto max-w-7xl px-6 pb-20 md:px-8">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           {e.crisisCards.map((c, i) => (
-            <div key={c.title} className="overflow-hidden rounded-2xl border border-line bg-surface/40">
+            <div key={c.title} className="glow-card overflow-hidden rounded-2xl border border-line bg-surface/40">
               <div className="h-44 w-full overflow-hidden">
                 <img src={CRISIS_IMAGES[i]} alt={c.title} className="h-full w-full object-cover" />
               </div>
@@ -68,7 +68,7 @@ export default function EnvironmentPage() {
         </h2>
         <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
           {e.tech.map((tItem) => (
-            <div key={tItem.title} className="rounded-2xl border border-line bg-surface/40 p-6">
+            <div key={tItem.title} className="glow-card rounded-2xl border border-line bg-surface/40 p-6">
               <h3 className="font-display text-lg text-paper">{tItem.title}</h3>
               <p className="mt-3 text-sm leading-relaxed text-sage">{tItem.desc}</p>
             </div>

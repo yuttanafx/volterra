@@ -20,7 +20,7 @@ export default function ProductsPage() {
       </section>
 
       <section className="relative z-10 mx-auto max-w-6xl px-6 pb-20 md:px-8">
-        <div className="grid grid-cols-1 items-center gap-10 rounded-3xl border border-line bg-surface/40 p-6 md:grid-cols-2 md:p-10">
+        <div className="glow-card grid grid-cols-1 items-center gap-10 rounded-3xl border border-line bg-surface/40 p-6 md:grid-cols-2 md:p-10">
           <img
             src="https://terravolteco.com/58009.png"
             alt="Ion Hybrid System Reverse"
@@ -47,7 +47,7 @@ export default function ProductsPage() {
       <section className="relative z-10 mx-auto max-w-7xl px-6 pb-20 md:px-8">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           {p.productList.map((item) => (
-            <div key={item.name} className="rounded-2xl border border-line bg-surface/40 p-6">
+            <div key={item.name} className="glow-card rounded-2xl border border-line bg-surface/40 p-6">
               <h3 className="font-display text-lg text-paper">{item.name}</h3>
               <p className="mt-3 text-sm leading-relaxed text-sage">{item.desc}</p>
             </div>
@@ -79,7 +79,7 @@ export default function ProductsPage() {
 
         <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {p.cycle.map((c) => (
-            <div key={c.step} className="rounded-2xl border border-line bg-surface/40 p-6">
+            <div key={c.step} className="glow-card rounded-2xl border border-line bg-surface/40 p-6">
               <span className="font-mono text-2xl text-volt">{c.step}</span>
               <h3 className="mt-2 font-display text-base text-paper">{c.title}</h3>
               <p className="mt-1 text-xs uppercase tracking-widest text-volt/80">{c.out}</p>

@@ -27,7 +27,7 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
           <div className="flex flex-col gap-6">
             {c.info.map((i) => (
-              <div key={i.label} className="rounded-2xl border border-line bg-surface/40 p-6">
+              <div key={i.label} className="glow-card rounded-2xl border border-line bg-surface/40 p-6">
                 <p className="font-mono text-xs uppercase tracking-widest text-volt">{i.label}</p>
                 {'href' in i && i.href ? (
                   <a

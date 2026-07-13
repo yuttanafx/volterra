@@ -13,7 +13,7 @@ export default function QuickLinks() {
           <Link
             key={l.href}
             href={l.href}
-            className="group flex min-h-[220px] flex-col justify-between rounded-2xl border border-line bg-surface/40 p-6 transition-colors hover:border-volt/60 hover:bg-surface/70"
+            className="group flex min-h-[220px] flex-col justify-between rounded-2xl border border-line bg-surface/40 p-6 transition-colors hover:border-volt/60 hover:bg-surface/70 glow-card"
           >
             <span className="font-mono text-xs text-volt">{l.tag}</span>
             <div className="mt-6">

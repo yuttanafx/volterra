@@ -40,7 +40,7 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="rounded-2xl border border-line bg-surface/40 p-6 md:p-8">
+    <form onSubmit={handleSubmit} className="glow-card rounded-2xl border border-line bg-surface/40 p-6 md:p-8">
       <h3 className="font-display text-xl text-paper">{f.title}</h3>
       <p className="mt-1 text-sm text-sage">{f.subtitle}</p>
 

@@ -24,7 +24,7 @@ export default function CrmPage() {
           {c.links.map((item) => (
             <div
               key={item.title}
-              className="flex flex-col justify-between rounded-2xl border border-line bg-surface/40 p-6"
+              className="glow-card flex flex-col justify-between rounded-2xl border border-line bg-surface/40 p-6"
             >
               <div>
                 <h3 className="font-display text-lg text-paper">{item.title}</h3>
@@ -44,7 +44,7 @@ export default function CrmPage() {
       </section>
 
       <section className="relative z-10 mx-auto max-w-5xl px-6 pb-24 md:px-8">
-        <div className="rounded-2xl border border-line bg-surface/40 p-8 md:p-10">
+        <div className="glow-card rounded-2xl border border-line bg-surface/40 p-8 md:p-10">
           <p className="font-mono text-xs uppercase tracking-[0.3em] text-volt">{c.earthEyebrow}</p>
           <h2 className="mt-4 font-display text-2xl text-paper sm:text-3xl">{c.earthTitle}</h2>
           <p className="mt-5 text-sm leading-relaxed text-sage sm:text-base">{c.earthParagraph}</p>
