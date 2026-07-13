@@ -4,12 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        ink: '#0A1F1C',       // deep pine — primary background
-        surface: '#123832',   // raised panel / gradient base
-        line: '#24493F',      // hairline borders on dark
-        volt: '#C6F135',      // electric lime — the single accent
-        paper: '#F4F7F2',     // primary text on dark
-        sage: '#9CB3AA',      // muted text
+        ink: 'var(--color-ink)',
+        surface: 'var(--color-surface)',
+        line: 'var(--color-line)',
+        volt: 'var(--color-volt)',
+        paper: 'var(--color-paper)',
+        sage: 'var(--color-sage)',
       },
       fontFamily: {
         display: ['var(--font-fraunces)', 'serif'],
