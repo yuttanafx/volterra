@@ -21,12 +21,12 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className="relative z-30 mx-auto flex max-w-7xl items-center justify-between px-6 py-6 md:px-8">
-      <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-        <span className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-1.5 shadow-sm">
+    <nav className="relative z-30 mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-4 sm:px-6 sm:py-6 md:px-8">
+      <Link href="/" className="flex min-w-0 shrink items-center gap-2 sm:gap-3" onClick={() => setOpen(false)}>
+        <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white p-1.5 shadow-sm sm:h-10 sm:w-10">
           <img src="/logo.jpg" alt="Terravolteco" className="h-full w-full object-contain" />
         </span>
-        <span className="font-display text-2xl tracking-tight text-paper sm:text-3xl">
+        <span className="truncate font-display text-lg tracking-tight text-paper sm:text-2xl lg:text-3xl">
           Terravolteco<sup className="text-sm text-volt">®</sup>
         </span>
       </Link>
@@ -59,13 +59,13 @@ export default function Navbar() {
         </Link>
       </div>
 
-      <div className="flex items-center gap-2 lg:hidden">
+      <div className="flex shrink-0 items-center gap-1.5 sm:gap-2 lg:hidden">
         <ThemeToggleButton />
         <LangToggleButton />
         <button
           type="button"
           onClick={() => setOpen((v) => !v)}
-          className="flex h-10 w-10 items-center justify-center rounded-full border border-line text-lg text-paper"
+          className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-line text-lg text-paper sm:h-10 sm:w-10"
           aria-label="เปิดเมนู"
         >
           {open ? '✕' : '☰'}
@@ -73,7 +73,7 @@ export default function Navbar() {
       </div>
 
       {open && (
-        <div className="absolute left-0 right-0 top-full z-30 mx-4 mt-2 rounded-2xl border border-line bg-ink/95 p-4 backdrop-blur lg:hidden">
+        <div className="fixed left-4 right-4 top-20 z-50 max-h-[calc(100vh-6rem)] overflow-y-auto rounded-2xl border border-line bg-ink/95 p-4 shadow-xl backdrop-blur lg:hidden">
           <ul className="flex flex-col gap-1">
             {NAV_ITEMS.map((item) => {
               const active = pathname === item.href

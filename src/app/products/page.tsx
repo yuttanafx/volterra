@@ -22,7 +22,7 @@ export default function ProductsPage() {
       <section className="relative z-10 mx-auto max-w-6xl px-6 pb-20 md:px-8">
         <div className="glow-card grid grid-cols-1 items-center gap-10 rounded-3xl border border-line bg-surface/40 p-6 md:grid-cols-2 md:p-10">
           <img
-            src="https://terravolteco.com/58009.png"
+            src="/media/products/ion-hybrid-system.jpg"
             alt="Ion Hybrid System Reverse"
             className="mx-auto max-h-96 w-auto object-contain"
           />
@@ -67,7 +67,7 @@ export default function ProductsPage() {
 
         <div className="mt-10 overflow-hidden rounded-2xl border border-line">
           <img
-            src="https://terravolteco.com/terravolt.jpg"
+            src="/media/products/mechanism-cycle.jpg"
             alt="ระบบกลไกการทำงาน Terravolteco"
             className="h-64 w-full object-cover sm:h-80"
           />
