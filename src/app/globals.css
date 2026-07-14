@@ -219,7 +219,6 @@ body {
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
-  animation: glowSpin 12s linear infinite;
   opacity: 0.9;
   z-index: -1;
   pointer-events: none;
@@ -233,6 +232,7 @@ body {
   background: radial-gradient(closest-side, rgba(198, 241, 53, 0.16), transparent 80%);
   z-index: -2;
   pointer-events: none;
+  animation: glowFlicker 7s ease-in-out infinite;
 }
 
 .glow-card:hover {
@@ -242,9 +242,23 @@ body {
 
 .glow-card:hover::before {
   opacity: 1;
-  animation-duration: 7s;
 }
 
-@keyframes glowSpin {
-  to { transform: rotate(360deg); }
+@keyframes glowFlicker {
+  0%, 88%, 100% {
+    opacity: 0.16;
+    background: radial-gradient(closest-side, rgba(198, 241, 53, 0.16), transparent 80%);
+  }
+  91% {
+    opacity: 0.6;
+    background: radial-gradient(closest-side, rgba(198, 241, 53, 0.32), transparent 80%);
+  }
+  94% {
+    opacity: 0.2;
+    background: radial-gradient(closest-side, rgba(198, 241, 53, 0.16), transparent 80%);
+  }
+  97% {
+    opacity: 0.5;
+    background: radial-gradient(closest-side, rgba(198, 241, 53, 0.28), transparent 80%);
+  }
 }
