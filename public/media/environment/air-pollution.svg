@@ -1,0 +1,56 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1f1c"/>
+      <stop offset="60%" stop-color="#123832"/>
+      <stop offset="100%" stop-color="#1b3a33"/>
+    </linearGradient>
+    <linearGradient id="smog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9cb3aa" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#b98cff" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="smoke" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#9cb3aa" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#9cb3aa" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#bg2)"/>
+
+  <!-- hazy sun -->
+  <circle cx="320" cy="70" r="34" fill="#ff8ac2" opacity="0.35"/>
+
+  <!-- city skyline -->
+  <g fill="#0f2b26" stroke="#24493f" stroke-width="1.5">
+    <rect x="20" y="150" width="40" height="110"/>
+    <rect x="65" y="110" width="34" height="150"/>
+    <rect x="104" y="170" width="30" height="90"/>
+    <rect x="140" y="90" width="38" height="170"/>
+    <rect x="184" y="140" width="30" height="120"/>
+    <rect x="220" y="60" width="42" height="200"/>
+    <rect x="268" y="130" width="30" height="130"/>
+    <rect x="304" y="170" width="34" height="90"/>
+    <rect x="344" y="120" width="30" height="140"/>
+  </g>
+
+  <!-- window lights -->
+  <g fill="#c6f135" opacity="0.5">
+    <rect x="27" y="165" width="5" height="5"/>
+    <rect x="40" y="180" width="5" height="5"/>
+    <rect x="150" y="115" width="5" height="5"/>
+    <rect x="163" y="140" width="5" height="5"/>
+    <rect x="230" y="90" width="5" height="5"/>
+    <rect x="245" y="120" width="5" height="5"/>
+  </g>
+
+  <!-- smoke stacks -->
+  <g stroke="url(#smoke)" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.8">
+    <path d="M235 70 C 250 50, 220 35, 240 15"/>
+    <path d="M310 145 C 325 125, 295 110, 315 90"/>
+  </g>
+
+  <!-- smog haze layer over whole skyline -->
+  <rect x="0" y="60" width="400" height="200" fill="url(#smog)"/>
+
+  <text x="200" y="285" text-anchor="middle" font-family="monospace" font-size="13" letter-spacing="2" fill="#b98cff" opacity="0.9">AQI · UNHEALTHY 185</text>
+</svg>

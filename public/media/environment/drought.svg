@@ -1,0 +1,53 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1f1c"/>
+      <stop offset="100%" stop-color="#1a2e26"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c6f135" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#c6f135" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2e1f"/>
+      <stop offset="100%" stop-color="#241c13"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#bg3)"/>
+
+  <!-- sun -->
+  <circle cx="315" cy="70" r="55" fill="url(#sunGlow)"/>
+  <circle cx="315" cy="70" r="26" fill="#c6f135" opacity="0.85"/>
+  <g stroke="#c6f135" stroke-width="2.5" stroke-linecap="round" opacity="0.7">
+    <line x1="315" y1="18" x2="315" y2="4"/>
+    <line x1="315" y1="122" x2="315" y2="136"/>
+    <line x1="263" y1="70" x2="249" y2="70"/>
+    <line x1="352" y1="33" x2="362" y2="23"/>
+    <line x1="352" y1="107" x2="362" y2="117"/>
+    <line x1="278" y1="33" x2="268" y2="23"/>
+    <line x1="278" y1="107" x2="268" y2="117"/>
+  </g>
+
+  <!-- cracked dry ground -->
+  <rect x="0" y="190" width="400" height="110" fill="url(#ground)"/>
+  <g stroke="#0a1f1c" stroke-width="2.5" fill="none" opacity="0.9">
+    <path d="M0 210 L 60 225 L 40 260 L 90 250 L 70 300"/>
+    <path d="M90 250 L 150 240 L 170 280 L 220 265"/>
+    <path d="M150 240 L 130 200 L 190 195"/>
+    <path d="M220 265 L 260 300"/>
+    <path d="M220 265 L 280 250 L 260 210 L 330 220"/>
+    <path d="M280 250 L 300 300"/>
+    <path d="M330 220 L 400 235"/>
+    <path d="M330 220 L 350 195"/>
+  </g>
+
+  <!-- wilted plant -->
+  <g transform="translate(60,150)" stroke="#7a6a4a" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M0 40 C -4 20, 4 6, 2 -10"/>
+    <path d="M0 30 C -14 24, -20 30, -26 22"/>
+    <path d="M2 18 C 14 12, 20 18, 26 12"/>
+  </g>
+
+  <text x="200" y="285" text-anchor="middle" font-family="monospace" font-size="13" letter-spacing="2" fill="#c6f135" opacity="0.85">DROUGHT RISK · RISING</text>
+</svg>
