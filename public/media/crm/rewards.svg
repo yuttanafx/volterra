@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgE" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1f1c"/>
+      <stop offset="100%" stop-color="#163f37"/>
+    </linearGradient>
+    <radialGradient id="glowE" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#ff8ac2" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ff8ac2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="200" fill="url(#bgE)"/>
+  <rect width="400" height="200" fill="url(#glowE)"/>
+
+  <!-- gift box -->
+  <g transform="translate(160,55)">
+    <rect x="0" y="30" width="90" height="65" rx="6" fill="#0f2b26" stroke="#c6f135" stroke-width="2.5"/>
+    <rect x="0" y="14" width="90" height="20" rx="4" fill="#0f2b26" stroke="#c6f135" stroke-width="2.5"/>
+    <rect x="40" y="14" width="10" height="81" fill="#c6f135" opacity="0.8"/>
+    <path d="M45 14 C 20 14, 20 -8, 45 4 C 70 -8, 70 14, 45 14 Z" fill="none" stroke="#c6f135" stroke-width="2.5"/>
+  </g>
+
+  <!-- sparkle stars -->
+  <g fill="#ff8ac2">
+    <path d="M295 55 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 Z"/>
+    <path d="M90 130 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3 Z"/>
+    <path d="M310 120 l2.5 6 6 2.5 -6 2.5 -2.5 6 -2.5 -6 -6 -2.5 6 -2.5 Z"/>
+  </g>
+</svg>

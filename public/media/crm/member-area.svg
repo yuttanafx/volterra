@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1f1c"/>
+      <stop offset="100%" stop-color="#163f37"/>
+    </linearGradient>
+    <radialGradient id="glowC" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#b98cff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#b98cff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="200" fill="url(#bgC)"/>
+  <rect width="400" height="200" fill="url(#glowC)"/>
+
+  <!-- membership badge -->
+  <g transform="translate(200,96)">
+    <circle r="46" fill="#0f2b26" stroke="#b98cff" stroke-width="2.5"/>
+    <path d="M0 -22 L6.5 -7 L22 -7 L10 3 L15 18 L0 8 L-15 18 L-10 3 L-22 -7 L-6.5 -7 Z" fill="#b98cff"/>
+    <path d="M-30 40 L-14 24 L14 24 L30 40 L14 60 L-14 60 Z" fill="none" stroke="#b98cff" stroke-width="2" opacity="0.5"/>
+  </g>
+  <rect x="80" y="150" width="240" height="6" rx="3" fill="#b98cff" opacity="0.25"/>
+</svg>

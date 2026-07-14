@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgF" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1f1c"/>
+      <stop offset="100%" stop-color="#163f37"/>
+    </linearGradient>
+    <radialGradient id="glowF" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#6ea8ff" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#6ea8ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="200" fill="url(#bgF)"/>
+  <rect width="400" height="200" fill="url(#glowF)"/>
+
+  <!-- gear -->
+  <g transform="translate(230,100)" fill="none" stroke="#6ea8ff" stroke-width="4">
+    <circle r="34"/>
+    <circle r="12" fill="#0f2b26"/>
+    <g stroke-linecap="round">
+      <line x1="0" y1="-34" x2="0" y2="-48"/>
+      <line x1="0" y1="34" x2="0" y2="48"/>
+      <line x1="-34" y1="0" x2="-48" y2="0"/>
+      <line x1="34" y1="0" x2="48" y2="0"/>
+      <line x1="-24" y1="-24" x2="-34" y2="-34"/>
+      <line x1="24" y1="-24" x2="34" y2="-34"/>
+      <line x1="-24" y1="24" x2="-34" y2="34"/>
+      <line x1="24" y1="24" x2="34" y2="34"/>
+    </g>
+  </g>
+
+  <!-- wrench -->
+  <g transform="translate(130,100) rotate(-35)" fill="#c6f135">
+    <path d="M-40 -8 a18 18 0 1 1 0 16 l-40 40 -14 -14 40 -40 a18 18 0 0 1 14 -2 Z" opacity="0.9"/>
+    <circle cx="-40" cy="0" r="7" fill="#0f2b26"/>
+  </g>
+</svg>
