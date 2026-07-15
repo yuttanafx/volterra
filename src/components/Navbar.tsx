@@ -51,12 +51,14 @@ export default function Navbar() {
       <div className="hidden items-center gap-3 lg:flex">
         <ThemeToggleButton />
         <LangToggleButton />
-        <Link
-          href="/contact"
+        <a
+          href="https://story-terravolteco.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
           className="rounded-full bg-volt px-6 py-2.5 text-sm font-medium text-ink transition-transform duration-200 hover:scale-[1.03]"
         >
           {t.nav.cta}
-        </Link>
+        </a>
       </div>
 
       <div className="flex shrink-0 items-center gap-1.5 sm:gap-2 lg:hidden">
@@ -91,13 +93,15 @@ export default function Navbar() {
               )
             })}
             <li>
-              <Link
-                href="/contact"
+              <a
+                href="https://story-terravolteco.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setOpen(false)}
                 className="mt-2 block rounded-full bg-volt px-4 py-3 text-center text-sm font-medium text-ink"
               >
                 {t.nav.cta}
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
