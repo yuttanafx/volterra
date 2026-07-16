@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { useLanguage } from './LanguageProvider'
 
@@ -27,6 +28,12 @@ export default function PdpaConsent() {
         <div className="text-left">
           <p className="font-display text-base text-paper sm:text-lg">{t.pdpa.title}</p>
           <p className="mt-2 text-sm leading-relaxed text-sage">{t.pdpa.message}</p>
+          <Link
+            href="/privacy-policy"
+            className="mt-2 inline-block text-sm font-medium text-volt underline underline-offset-2 transition-opacity hover:opacity-80"
+          >
+            {t.pdpa.policyLink}
+          </Link>
         </div>
         <div className="flex shrink-0 flex-col gap-2 sm:flex-row">
           <button

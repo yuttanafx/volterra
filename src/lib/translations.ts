@@ -233,6 +233,7 @@ export const translations = {
       membershipHead: 'ระบบสมาชิก',
       member: 'พื้นที่สมาชิก',
       myAccount: 'บัญชีของฉัน',
+      privacyPolicy: 'นโยบายความเป็นส่วนตัว',
       copyright:
         '© 2026 Terravolteco | บริษัท เทอร์ราโวลท์อีโค จำกัด — สงวนลิขสิทธิ์ · 25 อาคารอัลม่าลิงค์ ชั้น 17 ซอยชิดลม ถนนเพลินจิตร แขวงลุมพินี เขตปทุมวัน กรุงเทพฯ 10330',
     },
@@ -243,6 +244,60 @@ export const translations = {
       accept: 'ยอมรับ',
       decline: 'ปฏิเสธ',
       policyLink: 'อ่านนโยบายความเป็นส่วนตัว',
+    },
+    privacyPolicy: {
+      eyebrow: 'Privacy Policy',
+      title: [{ text: 'นโยบายความเป็นส่วนตัว' }, { text: 'และการคุ้มครองข้อมูลส่วนบุคคล', em: true }],
+      updated: 'ปรับปรุงล่าสุด: 17 กรกฎาคม 2569',
+      intro:
+        'บริษัท เทอร์ราโวลท์อีโค จำกัด ("บริษัท", "เรา") ตระหนักถึงความสำคัญของการคุ้มครองข้อมูลส่วนบุคคลของท่าน นโยบายฉบับนี้จัดทำขึ้นเพื่อชี้แจงแนวทางการเก็บรวบรวม ใช้ และเปิดเผยข้อมูลส่วนบุคคล ตามพระราชบัญญัติคุ้มครองข้อมูลส่วนบุคคล พ.ศ. 2562 (PDPA)',
+      sections: [
+        {
+          heading: '1. ข้อมูลที่เราเก็บรวบรวม',
+          body: 'ข้อมูลระบุตัวตน เช่น ชื่อ-นามสกุล อีเมล เบอร์โทรศัพท์ ที่อยู่ รวมถึงข้อมูลการใช้งานเว็บไซต์ เช่น คุกกี้ ที่อยู่ IP และพฤติกรรมการเข้าชมเว็บไซต์ ซึ่งเก็บรวบรวมเมื่อท่านกรอกแบบฟอร์มติดต่อ สมัครสมาชิก หรือใช้งานเว็บไซต์ของเรา',
+        },
+        {
+          heading: '2. วัตถุประสงค์ในการใช้ข้อมูล',
+          body: 'เพื่อติดต่อสื่อสาร ให้บริการหลังการขาย จัดส่งข้อมูลข่าวสารและสิทธิประโยชน์ ปรับปรุงคุณภาพเว็บไซต์และบริการของเรา ตลอดจนปฏิบัติตามข้อกำหนดทางกฎหมาย',
+        },
+        {
+          heading: '3. การเปิดเผยข้อมูลแก่บุคคลที่สาม',
+          body: 'เราจะไม่เปิดเผยข้อมูลส่วนบุคคลของท่านแก่บุคคลภายนอก เว้นแต่ได้รับความยินยอมจากท่าน หรือเป็นไปตามที่กฎหมายกำหนด เช่น หน่วยงานราชการที่มีอำนาจตามกฎหมาย',
+        },
+        {
+          heading: '4. ระยะเวลาการจัดเก็บข้อมูล',
+          body: 'เราจะจัดเก็บข้อมูลส่วนบุคคลของท่านเท่าที่จำเป็นตามวัตถุประสงค์ที่ระบุไว้ และจะลบหรือทำลายข้อมูลเมื่อพ้นระยะเวลาที่กฎหมายกำหนดหรือไม่มีความจำเป็นต้องใช้อีกต่อไป',
+        },
+        {
+          heading: '5. สิทธิของเจ้าของข้อมูล',
+          body: 'ท่านมีสิทธิขอเข้าถึง ขอแก้ไข ขอลบ ขอระงับการใช้ หรือคัดค้านการประมวลผลข้อมูลส่วนบุคคลของท่าน รวมถึงสิทธิเพิกถอนความยินยอมได้ทุกเมื่อ โดยติดต่อผ่านช่องทางที่ระบุไว้ด้านล่าง',
+        },
+        {
+          heading: '6. มาตรการรักษาความปลอดภัย',
+          body: 'เรามีมาตรการเชิงเทคนิคและการบริหารจัดการที่เหมาะสม เพื่อป้องกันการเข้าถึง แก้ไข หรือเปิดเผยข้อมูลส่วนบุคคลโดยไม่ได้รับอนุญาต',
+        },
+        {
+          heading: '7. การใช้คุกกี้',
+          body: 'เว็บไซต์ของเราใช้คุกกี้เพื่อจดจำการตั้งค่าและปรับปรุงประสบการณ์การใช้งาน ท่านสามารถจัดการการตั้งค่าคุกกี้ผ่านเบราว์เซอร์ของท่านได้',
+        },
+      ],
+      contactHeading: 'ติดต่อเจ้าหน้าที่คุ้มครองข้อมูลส่วนบุคคล',
+      contactBody:
+        'หากท่านมีข้อสงสัยเกี่ยวกับนโยบายฉบับนี้ หรือต้องการใช้สิทธิของเจ้าของข้อมูล กรุณาติดต่อเราได้ที่ varunya@terravolteco.com หรือโทร 092-273-2376',
+    },
+    certifications: {
+      heading: 'ความน่าเชื่อถือที่ตรวจสอบได้',
+      sub: 'จดทะเบียนถูกต้องตามกฎหมาย พร้อมทรัพย์สินทางปัญญาที่ได้รับการคุ้มครอง',
+      items: [
+        {
+          title: 'จดทะเบียนนิติบุคคล',
+          desc: 'หนังสือรับรองบริษัท เทอร์ราโวลท์อีโค จำกัด จากกรมพัฒนาธุรกิจการค้า',
+        },
+        {
+          title: 'ทรัพย์สินทางปัญญา',
+          desc: 'อนุสิทธิบัตรและเครื่องหมายการค้าที่จดทะเบียนคุ้มครองแล้ว',
+        },
+      ],
     },
   },
 
@@ -478,6 +533,7 @@ export const translations = {
       membershipHead: 'Membership',
       member: 'Member Area',
       myAccount: 'My Account',
+      privacyPolicy: 'Privacy Policy',
       copyright:
         '© 2026 Terravolteco | Terravolt Eco Co., Ltd. — All rights reserved · 25 Alma Link Building, 17th Floor, Soi Chidlom, Ploenchit Road, Lumpini, Pathumwan, Bangkok 10330',
     },
@@ -488,6 +544,60 @@ export const translations = {
       accept: 'Accept',
       decline: 'Decline',
       policyLink: 'Read privacy policy',
+    },
+    privacyPolicy: {
+      eyebrow: 'Privacy Policy',
+      title: [{ text: 'Privacy Policy &' }, { text: 'Personal Data Protection', em: true }],
+      updated: 'Last updated: July 17, 2026',
+      intro:
+        'Terravolt Eco Co., Ltd. ("the Company", "we") recognizes the importance of protecting your personal data. This policy explains how we collect, use, and disclose personal data in accordance with the Personal Data Protection Act B.E. 2562 (2019) (PDPA).',
+      sections: [
+        {
+          heading: '1. Information We Collect',
+          body: 'Identity information such as name, email, phone number, and address, as well as website usage data such as cookies, IP address, and browsing behavior, collected when you fill out a contact form, register as a member, or use our website.',
+        },
+        {
+          heading: '2. Purpose of Use',
+          body: 'To communicate with you, provide after-sales service, deliver news and benefits, improve the quality of our website and services, and comply with legal requirements.',
+        },
+        {
+          heading: '3. Disclosure to Third Parties',
+          body: 'We will not disclose your personal data to third parties except with your consent or as required by law, such as to government authorities with legal authority.',
+        },
+        {
+          heading: '4. Data Retention Period',
+          body: 'We retain your personal data only as long as necessary for the stated purposes, and will delete or destroy it once the legally required period has passed or it is no longer needed.',
+        },
+        {
+          heading: '5. Your Rights',
+          body: 'You have the right to access, correct, delete, restrict the use of, or object to the processing of your personal data, as well as the right to withdraw consent at any time, by contacting us through the channels below.',
+        },
+        {
+          heading: '6. Security Measures',
+          body: 'We maintain appropriate technical and organizational measures to prevent unauthorized access, alteration, or disclosure of personal data.',
+        },
+        {
+          heading: '7. Use of Cookies',
+          body: 'Our website uses cookies to remember your preferences and improve your experience. You can manage cookie settings through your browser.',
+        },
+      ],
+      contactHeading: 'Contact Our Data Protection Officer',
+      contactBody:
+        'If you have any questions about this policy or wish to exercise your rights as a data subject, please contact us at varunya@terravolteco.com or call 092-273-2376.',
+    },
+    certifications: {
+      heading: 'Verified & Trusted',
+      sub: 'Legally registered, with protected intellectual property.',
+      items: [
+        {
+          title: 'Company Registration',
+          desc: 'Certificate of registration for Terravolt Eco Co., Ltd. from the Department of Business Development.',
+        },
+        {
+          title: 'Intellectual Property',
+          desc: 'Registered petty patents and trademarks under legal protection.',
+        },
+      ],
     },
   },
 }

@@ -2,6 +2,7 @@ import VideoBackground from '@/components/VideoBackground'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import QuickLinks from '@/components/QuickLinks'
+import Certifications from '@/components/Certifications'
 import Footer from '@/components/Footer'
 import PdpaConsent from '@/components/PdpaConsent'
 
@@ -13,6 +14,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <QuickLinks />
+        <Certifications />
         <Footer />
       </div>
       <PdpaConsent />

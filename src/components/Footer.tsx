@@ -27,6 +27,7 @@ export default function Footer() {
               <li><Link href="/crm" className="transition-colors hover:text-paper">{t.nav.crm}</Link></li>
               <li><Link href="/products" className="transition-colors hover:text-paper">{t.nav.products}</Link></li>
               <li><Link href="/contact" className="transition-colors hover:text-paper">{t.nav.contact}</Link></li>
+              <li><Link href="/privacy-policy" className="transition-colors hover:text-paper">{t.footer.privacyPolicy}</Link></li>
             </ul>
           </div>
           <div>
