@@ -236,6 +236,14 @@ export const translations = {
       copyright:
         '© 2026 Terravolteco | บริษัท เทอร์ราโวลท์อีโค จำกัด — สงวนลิขสิทธิ์ · 25 อาคารอัลม่าลิงค์ ชั้น 17 ซอยชิดลม ถนนเพลินจิตร แขวงลุมพินี เขตปทุมวัน กรุงเทพฯ 10330',
     },
+    pdpa: {
+      title: 'การคุ้มครองข้อมูลส่วนบุคคล (PDPA)',
+      message:
+        'เว็บไซต์นี้ใช้คุกกี้และเก็บรวบรวมข้อมูลส่วนบุคคลของท่าน เพื่อพัฒนาประสิทธิภาพและมอบประสบการณ์ที่ดีในการใช้งานเว็บไซต์ ท่านสามารถศึกษารายละเอียดเพิ่มเติมได้ที่นโยบายความเป็นส่วนตัวของเรา การกดยอมรับถือว่าท่านยินยอมให้เราจัดเก็บและใช้ข้อมูลตามที่ระบุไว้ ภายใต้พระราชบัญญัติคุ้มครองข้อมูลส่วนบุคคล พ.ศ. 2562',
+      accept: 'ยอมรับ',
+      decline: 'ปฏิเสธ',
+      policyLink: 'อ่านนโยบายความเป็นส่วนตัว',
+    },
   },
 
   en: {
@@ -472,6 +480,14 @@ export const translations = {
       myAccount: 'My Account',
       copyright:
         '© 2026 Terravolteco | Terravolt Eco Co., Ltd. — All rights reserved · 25 Alma Link Building, 17th Floor, Soi Chidlom, Ploenchit Road, Lumpini, Pathumwan, Bangkok 10330',
+    },
+    pdpa: {
+      title: 'Personal Data Protection (PDPA)',
+      message:
+        'This website uses cookies and collects your personal data to improve performance and give you a better browsing experience. You can learn more in our privacy policy. By clicking Accept, you consent to our collection and use of data as described, in accordance with the Personal Data Protection Act B.E. 2562 (2019).',
+      accept: 'Accept',
+      decline: 'Decline',
+      policyLink: 'Read privacy policy',
     },
   },
 }

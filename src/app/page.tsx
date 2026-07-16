@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import QuickLinks from '@/components/QuickLinks'
 import Footer from '@/components/Footer'
+import PdpaConsent from '@/components/PdpaConsent'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <QuickLinks />
         <Footer />
       </div>
+      <PdpaConsent />
     </main>
   )
 }
