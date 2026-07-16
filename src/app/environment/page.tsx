@@ -4,9 +4,9 @@ import PageShell from '@/components/PageShell'
 import { useLanguage } from '@/components/LanguageProvider'
 
 const CRISIS_IMAGES = [
-  '/media/environment/global-warming.svg',
-  '/media/environment/air-pollution.svg',
-  '/media/environment/drought.svg',
+  '/media/environment/global-warming.jpg',
+  '/media/environment/air-pollution.jpg',
+  '/media/environment/drought.jpg',
 ]
 
 export default function EnvironmentPage() {

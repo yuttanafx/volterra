@@ -4,12 +4,12 @@ import PageShell from '@/components/PageShell'
 import { useLanguage } from '@/components/LanguageProvider'
 
 const CRM_IMAGES = [
-  '/media/crm/unit-status.svg',
-  '/media/crm/my-account.svg',
-  '/media/crm/member-area.svg',
-  '/media/crm/carbon-credit.svg',
-  '/media/crm/rewards.svg',
-  '/media/crm/maintenance.svg',
+  '/media/crm/unit-status.jpg',
+  '/media/crm/my-account.jpg',
+  '/media/crm/member-area.jpg',
+  '/media/crm/carbon-credit.jpg',
+  '/media/crm/rewards.jpg',
+  '/media/crm/maintenance.jpg',
 ]
 
 export default function CrmPage() {
