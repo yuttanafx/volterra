@@ -209,7 +209,7 @@ export const translations = {
         { label: 'Line Official', value: 'สอบถามข้อมูลเพิ่มเติมผ่านไลน์', href: 'https://lin.ee/nzYBrcA' },
         {
           label: 'ที่อยู่บริษัท',
-          value: '25 อาคารอัลม่าลิงค์ ชั้น 17 ห้องเลขที่ 575 ซอยชิดลม ถนนเพลินจิตร แขวงลุมพินี เขตปทุมวัน กรุงเทพฯ 10330',
+          value: '38/13 หมู่ที่ 2 ตำบลหน้าไม้ อำเภอลาดหลุมแก้ว จังหวัดปทุมธานี 12140',
         },
       ],
       form: {
@@ -235,7 +235,7 @@ export const translations = {
       myAccount: 'บัญชีของฉัน',
       privacyPolicy: 'นโยบายความเป็นส่วนตัว',
       copyright:
-        '© 2026 Terravolteco | บริษัท เทอร์ราโวลท์อีโค จำกัด — สงวนลิขสิทธิ์ · 25 อาคารอัลม่าลิงค์ ชั้น 17 ซอยชิดลม ถนนเพลินจิตร แขวงลุมพินี เขตปทุมวัน กรุงเทพฯ 10330',
+        '© 2026 Terravolteco | บริษัท เทอร์ราโวลท์อีโค จำกัด — สงวนลิขสิทธิ์ · 38/13 หมู่ที่ 2 ตำบลหน้าไม้ อำเภอลาดหลุมแก้ว จังหวัดปทุมธานี 12140',
     },
     pdpa: {
       title: 'การคุ้มครองข้อมูลส่วนบุคคล (PDPA)',
@@ -509,7 +509,7 @@ export const translations = {
         { label: 'Line Official', value: 'Reach out for more information via LINE', href: 'https://lin.ee/nzYBrcA' },
         {
           label: 'Company Address',
-          value: '25 Alma Link Building, 17th Floor, Room 575, Soi Chidlom, Ploenchit Road, Lumpini, Pathumwan, Bangkok 10330',
+          value: '38/13 Moo 2, Na Mai Subdistrict, Lat Lum Kaeo District, Pathum Thani 12140',
         },
       ],
       form: {
@@ -535,7 +535,7 @@ export const translations = {
       myAccount: 'My Account',
       privacyPolicy: 'Privacy Policy',
       copyright:
-        '© 2026 Terravolteco | Terravolt Eco Co., Ltd. — All rights reserved · 25 Alma Link Building, 17th Floor, Soi Chidlom, Ploenchit Road, Lumpini, Pathumwan, Bangkok 10330',
+        '© 2026 Terravolteco | Terravolt Eco Co., Ltd. — All rights reserved · 38/13 Moo 2, Na Mai Subdistrict, Lat Lum Kaeo District, Pathum Thani 12140',
     },
     pdpa: {
       title: 'Personal Data Protection (PDPA)',

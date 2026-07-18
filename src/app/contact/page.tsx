@@ -5,7 +5,7 @@ import ContactForm from '@/components/ContactForm'
 import { useLanguage } from '@/components/LanguageProvider'
 
 const MAP_SRC =
-  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.558141068117!2d100.544423!3d13.7451805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29edb2d4fe647%3A0x8e3f5e2586334016!2sAlma%20Link%20Building!5e0!3m2!1sen!2sth!4v1767026591398!5m2!1sen!2sth'
+  'https://www.google.com/maps?q=38/13+%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B9%88%E0%B8%97%E0%B8%B5%E0%B9%88+2+%E0%B8%95%E0%B8%B3%E0%B8%9A%E0%B8%A5%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B9%84%E0%B8%A1%E0%B9%89+%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%AB%E0%B8%A5%E0%B8%B8%E0%B8%A1%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%A7+%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5+12140&output=embed'
 
 export default function ContactPage() {
   const { t } = useLanguage()
