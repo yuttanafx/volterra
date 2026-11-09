@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { useLanguage } from './LanguageProvider'
 
 const CERT_IMAGES = [
@@ -36,6 +37,15 @@ export default function Certifications() {
             <p className="mt-1 text-xs leading-relaxed text-sage">{item.desc}</p>
           </div>
         ))}
+      </div>
+
+      <div className="mt-10 text-center">
+        <Link
+          href="/rnd"
+          className="inline-flex items-center justify-center rounded-full bg-volt px-8 py-3 text-sm font-medium text-ink transition-transform duration-200 hover:scale-[1.03]"
+        >
+          {t.nav.rnd} →
+        </Link>
       </div>
     </section>
   )

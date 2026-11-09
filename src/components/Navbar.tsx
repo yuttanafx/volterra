@@ -17,6 +17,7 @@ export default function Navbar() {
     { label: t.nav.environment, href: '/environment' },
     { label: t.nav.crm, href: '/crm' },
     { label: t.nav.products, href: '/products' },
+    { label: t.nav.rnd, href: '/rnd' },
     { label: t.nav.contact, href: '/contact' },
   ]
 

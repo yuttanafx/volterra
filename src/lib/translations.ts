@@ -7,6 +7,7 @@ export const translations = {
       environment: 'สิ่งแวดล้อม',
       crm: 'CRM ลูกค้า',
       products: 'สินค้า',
+      rnd: 'R&D การพัฒนาและวิจัย',
       contact: 'ติดต่อเรา',
       cta: 'เริ่มต้นเปลี่ยนผ่าน',
     },
@@ -285,6 +286,17 @@ export const translations = {
       contactBody:
         'หากท่านมีข้อสงสัยเกี่ยวกับนโยบายฉบับนี้ หรือต้องการใช้สิทธิของเจ้าของข้อมูล กรุณาติดต่อเราได้ที่ varunya@terravolteco.com หรือโทร 092-273-2376',
     },
+    rnd: {
+      eyebrow: 'Research & Development',
+      title: [{ text: 'R&D' }, { text: 'การพัฒนาและวิจัย' }],
+      intro:
+        'Terravolteco ร่วมวิจัยและพัฒนาเครื่องกำเนิดไฟฟ้า ION Storage Power (ISP) กับ UM Power Energy Dedicated Advanced Centre (UMPEDAC) มหาวิทยาลัยมาลายา',
+      viewDoc: 'ดูเอกสารยืนยัน',
+      docTitle: 'หนังสือยืนยันความร่วมมือด้านการวิจัยและพัฒนา',
+      docAlt: 'หนังสือยืนยันวัตถุประสงค์การวิจัยและพัฒนาเครื่องกำเนิดไฟฟ้า ION Storage Power จาก UMPEDAC มหาวิทยาลัยมาลายา',
+      confidential: 'เอกสารฉบับเต็มโปรดติดต่อเป็นการส่วนตัว',
+      close: 'ปิด',
+    },
     certifications: {
       heading: 'ความน่าเชื่อถือที่ตรวจสอบได้',
       sub: 'จดทะเบียนถูกต้องตามกฎหมาย พร้อมทรัพย์สินทางปัญญาที่ได้รับการคุ้มครอง',
@@ -307,6 +319,7 @@ export const translations = {
       environment: 'Environment',
       crm: 'Customer CRM',
       products: 'Products',
+      rnd: 'R&D',
       contact: 'Contact',
       cta: 'Start the Transition',
     },
@@ -584,6 +597,17 @@ export const translations = {
       contactHeading: 'Contact Our Data Protection Officer',
       contactBody:
         'If you have any questions about this policy or wish to exercise your rights as a data subject, please contact us at varunya@terravolteco.com or call 092-273-2376.',
+    },
+    rnd: {
+      eyebrow: 'Research & Development',
+      title: [{ text: 'R&D' }, { text: 'Research & Development' }],
+      intro:
+        'Terravolteco is co-developing the ION Storage Power (ISP) generator with the UM Power Energy Dedicated Advanced Centre (UMPEDAC), Universiti Malaya.',
+      viewDoc: 'View confirmation letter',
+      docTitle: 'R&D collaboration confirmation letter',
+      docAlt: 'Confirmation letter from UMPEDAC, Universiti Malaya on the ION Storage Power generator R&D purpose',
+      confidential: 'For the full document, please contact us privately.',
+      close: 'Close',
     },
     certifications: {
       heading: 'Verified & Trusted',
